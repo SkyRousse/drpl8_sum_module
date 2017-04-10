@@ -1,0 +1,5 @@
+name: add_numbers
+type: module
+description: A simple module that uses form inputs to add two numbers and displays the sum
+core: 8.x
+package: ThinkShoutDemo

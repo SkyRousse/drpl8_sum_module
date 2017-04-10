@@ -1,0 +1,4 @@
+add_numbers:
+  title: Add 2 Numbers
+  description: A simple module that adds two number inputs.
+  route_name: add_numbers

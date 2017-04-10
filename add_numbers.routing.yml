@@ -1,0 +1,17 @@
+# A route maps a URL path to a controller. For form controllers like this
+# the content is determined by the buildForm method defined by the
+# form controller implementation.
+
+# Access to these paths is restricted to users with the permission
+# 'access content'. This is notated as _permission: 'access content'.
+
+# Menu items corresponding to these URLs are defined separately in the
+# add_numbers.links.menu.yml file.
+
+add_numbers:
+  path: /add-numbers
+  defaults:
+    _form: \Drupal\add_numbers\Form\AddNumbers
+    _title: Add 2 Numbers
+  requirements:
+    _permission: access content
